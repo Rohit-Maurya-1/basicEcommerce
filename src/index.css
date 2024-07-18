@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:ital,wght@0,400;1,300&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box ;
+}
+/* font-family: 'Poppins', sans-serif; */
+/* font-family: 'Playfair Display', serif;
+font-family: 'Poppins', sans-serif; */
+
+.navbar{
+    font-family: 'Poppins', sans-serif; 
+    font-size:17px ;
+    line-height: 26px;
+    text-transform: uppercase;
+    box-shadow: 0 8px 6px -6px gray ;
+    --webkit-box-shadow: 0 8px 6px -6px gray ;
+    border-bottom: solid grey !important;
+}
+.nav-link{
+    font-weight: 300 !important;
+
+}
+.active{
+    border-bottom: 1px solid black;
+}
+
+.footer {
+    color: white;
+    padding: 25px;
+    background: #000000; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+      to right,
+      #434343,
+      #000000
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #434343, #000000);
+  }
+.footer a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+  }
+  
+  .footer a:hover {
+    color: #ffefba;
+    border-bottom: 1px solid #ffefba;
+  }
+
+  .register{
+    height: 530px;
+    display: flex;
+     align-items: center;
+    justify-content: center;
+  }
+  .bg-grey{
+    border: 1px solid grey;
+    padding: 23px;
+    width: 300px;
+    background-color:gray;
+    color:white;
+    box-sizing: border-box ;
+    box-shadow: 0 8px 6px -6px gray ;
+  }
+  .form-control{
+    background-color: #59585e;
+    outline: none;
+    border: none;
+  
+  }
+  .form-container{
+    height: 400px;
+   
+    display: flex;
+    align-items: center;
+   justify-content: center;
+ }
+
+ .login{
+  border: 1px solid grey;
+  height: 330px;
+  padding: 23px;
+  width: 300px;
+  background-color:gray;
+  color:white;
+  box-sizing: border-box ;
+  box-shadow: 0 8px 6px -6px gray ;
+
+ }
+ .pnf{
+  height: 430px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ }
+
+ .p{
+  border:1px solid pink;
+  width:423px;
+  padding: 23px;
+  height: 223px;
+  background-color: grey;
+  color:white
+ }
+ form {
+  width: 430px;
+}

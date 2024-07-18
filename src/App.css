@@ -1,0 +1,14 @@
+.card.w-75.p-3 {
+    height: 300px;
+    background-color: aliceblue;
+}
+.list-group.dashboard-menu {
+    background-color: aliceblue;
+}
+.row {
+    padding: 30px;
+    background-color: #f0efe9;
+}
+img.card-img-top {
+    padding: 14px;
+}
